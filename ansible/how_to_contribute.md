@@ -5,7 +5,7 @@ Creating and sending a pull request steps:
 
 #### 1. Fork your target repository:
 1. Access to the [upstream](https://github.com/ansible/ansible/)
-1. Fork the repository to your own organization([upstream](https://github.com/ansible/ansible/) > Press **fork**
+1. Fork the repository to your own organization([upstream](https://github.com/ansible/ansible/) > Press **fork**)
 1. If you already forked the target repository, you probably need to fetch upstream changes(your repository > Press **Fetch upstream** > Press **Fetch and merge**)
 
 #### 2. Clone your own repository and configure your name and email address:
@@ -135,7 +135,7 @@ Signed-off-by: Hideki Saito <saito@fgrep.org>
 
 Finally, you can force push the fix:
 ```shell
-$ git push -f oorigin HEAD
+$ git push -f origin HEAD
 ```
 #### 11. Ready for review
 If your pull-request has passed all CI tests, you can set **[ready for review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests)** on your pull-request page.
