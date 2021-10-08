@@ -24,8 +24,8 @@ origin  git@github.com:<YOUR_GITHUB_USER>/ansible.git (fetch)
 origin  git@github.com:<YOUR_GITHUB_USER>/ansible.git (push)
 $ git remote add upstream https://github.com/ansible/ansible.git
 $ git remote -v
-origin  git@github.com:saito-hideki/ansible.git (fetch)
-origin  git@github.com:saito-hideki/ansible.git (push)
+origin  git@github.com:<YOUR_GITHUB_USER>/ansible.git (fetch)
+origin  git@github.com:<YOUR_GITHUB_USER>/ansible.git (push)
 upstream        https://github.com/ansible/ansible.git (fetch)
 upstream        https://github.com/ansible/ansible.git (push)
 ```
