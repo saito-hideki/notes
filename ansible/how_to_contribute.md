@@ -80,7 +80,7 @@ $ git push origin HEAD
 
 #### 9. Confirm the results of CI tests on your [pull-request](https://github.com/ansible/ansible/pulls)
 
-#### 10. If it failed with some errors, you need to modify the code and push it again:
+#### 10. If it failed with some errors, you need to modify the code and push it again:(#fix_pr)
 Fix your code and commit it again:
 ```shell
 $ git commit -a --signoff
@@ -137,8 +137,11 @@ Finally, you can force push the fix:
 ```shell
 $ git push -f oorigin HEAD
 ```
-#### 10. Ready for review
+#### 11. Ready for review
 If your pull-request has passed all CI tests, you can set **[ready for review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests)** on your pull-request page.
+
+#### 12. Address to the change request
+If you have a change request from a reviewer, you need to address this request. You can do this as the same as <a name="fix_pr">HERE</a>
 
 ## References
 - [Ansible Community Guide](https://docs.ansible.com/ansible/latest/community/index.html)
