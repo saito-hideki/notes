@@ -141,7 +141,7 @@ $ git push -f oorigin HEAD
 If your pull-request has passed all CI tests, you can set **[ready for review](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests)** on your pull-request page.
 
 #### 12. Address to the change request
-If you have a change request from a reviewer, you need to address this request. You can do this as the same as [Section 10](https://github.com/saito-hideki/notes/blob/master/ansible/how_to_contribute.md#10-if-it-failed-with-some-errors-you-need-to-modify-the-code-and-push-it-againfix_pr)
+If you have a change request from a reviewer, you need to address this request. You can do this as the same as **Step 10**
 
 ## References
 - [Ansible Community Guide](https://docs.ansible.com/ansible/latest/community/index.html)
